@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" packages="http://logging.apache.org/log4j/2.0/config">
+    <Appenders>
+        <Console name="console" target="system_out">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d %m%n "/>
+        </Console>
+        <RollingFile name="rollingFile" fileName="${sys:catalina.base}/logs/platform.log"
+                     filePattern="${sys:catalina.base}/logs/%d{yyyy-MM}/platform-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>%d [%p] %l [%t] %m%n%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+        <RollingFile name="rollingFileInfo" fileName="${sys:catalina.base}/logs/platform.log"
+                     filePattern="${sys:catalina.base}/logs/%d{yyyy-MM}/platform-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>----> %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <logger name="com.zx.base.Interceptor" level="info" additivity="false">
+            <appender-ref ref="rollingFileInfo"/>
+        </logger>
+        <Root level="error">
+            <AppenderRef ref="console"/>
+            <AppenderRef ref="rollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

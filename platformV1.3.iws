@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="073eade1-276e-4117-b388-20bda4ea1c63" name="Default" comment="平台名称：platformV1.3&#10;框架构成：Spring4 + SpringMVC4 + Hibernate4&#10;数 据 库：MySQL5&#10;已有功能: 声明式事务、拦截器、使用@ModelAttribute注解、泛型依赖注入、Spring IOC 容器和SpringMVC IOC 容器同时管理、&#10;            BaseDao、BaseService、分页功能、log4j2、文件上传、使用@ControllerAdvice注解统一默认的异常处理方式">
+      <change beforePath="$PROJECT_DIR$/platformV1.3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/platformV1.3.iws" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="platformV1.3" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XkkcVJPgTiFLvQsHumaWAen0jz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zx\platformV1.3\WebContent\images" />
+      <recent name="D:\zx\platformV1.3\WebContent\image" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="073eade1-276e-4117-b388-20bda4ea1c63" name="Default" comment="" />
+      <created>1442476181496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1442476181496</updated>
+      <workItem from="1442476184720" duration="8872000" />
+      <workItem from="1447403613476" duration="853000" />
+      <workItem from="1449711912708" duration="16169000" />
+      <workItem from="1449795062886" duration="3258000" />
+      <workItem from="1450237542914" duration="594000" />
+      <workItem from="1450312349551" duration="5559000" />
+      <workItem from="1450686702902" duration="460000" />
+      <workItem from="1450832255584" duration="3005000" />
+      <workItem from="1450917453705" duration="7337000" />
+      <workItem from="1451006520456" duration="12450000" />
+      <workItem from="1451281066418" duration="435000" />
+      <workItem from="1451348429066" duration="2477000" />
+      <workItem from="1451456713505" duration="622000" />
+      <workItem from="1456195130877" duration="6621000" />
+      <workItem from="1456300557831" duration="33000" />
+      <workItem from="1456300667234" duration="396000" />
+      <workItem from="1456360843096" duration="7996000" />
+      <workItem from="1456818822794" duration="19000" />
+      <workItem from="1456820960919" duration="600000" />
+      <workItem from="1458805703486" duration="859000" />
+      <workItem from="1506673694064" duration="740000" />
+      <workItem from="1506675150703" duration="1024000" />
+      <workItem from="1506732377695" duration="3997000" />
+      <workItem from="1506739781674" duration="2354000" />
+      <workItem from="1507519612912" duration="3520000" />
+      <workItem from="1507531546649" duration="2146000" />
+      <workItem from="1507538314564" duration="1364000" />
+      <workItem from="1507604635174" duration="5101000" />
+      <workItem from="1507689202499" duration="2316000" />
+      <workItem from="1507862430203" duration="1089000" />
+      <workItem from="1507876687502" duration="43000" />
+      <workItem from="1508305213699" duration="667000" />
+      <workItem from="1508310291956" duration="1220000" />
+      <workItem from="1508471909622" duration="23000" />
+      <workItem from="1508485524739" duration="103000" />
+      <workItem from="1508489864463" duration="274000" />
+      <workItem from="1508813709795" duration="25000" />
+      <workItem from="1508817434459" duration="61000" />
+      <workItem from="1508896035414" duration="69000" />
+      <workItem from="1508899818458" duration="598000" />
+      <workItem from="1508901850628" duration="11000" />
+      <workItem from="1508914242984" duration="677000" />
+      <workItem from="1508917702679" duration="1212000" />
+      <workItem from="1508998427196" duration="2261000" />
+      <workItem from="1514964598496" duration="25000" />
+      <workItem from="1530252439624" duration="1363000" />
+      <workItem from="1530858345266" duration="102000" />
+      <workItem from="1581597617300" duration="4007000" />
+    </task>
+    <task id="LOCAL-00001" summary="平台名称：platformV1.3&#10;框架构成：Spring4 + SpringMVC4 + Hibernate4&#10;数 据 库：MySQL5&#10;已有功能: 声明式事务、拦截器、使用@ModelAttribute注解、泛型依赖注入、Spring IOC 容器和SpringMVC IOC 容器同时管理、&#10;            BaseDao、BaseService、分页功能、log4j2、文件上传、使用@ControllerAdvice注解统一默认的异常处理方式">
+      <created>1581598539676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581598539677</updated>
+    </task>
+    <task id="LOCAL-00002" summary="平台名称：platformV1.3&#10;框架构成：Spring4 + SpringMVC4 + Hibernate4&#10;数 据 库：MySQL5&#10;已有功能: 声明式事务、拦截器、使用@ModelAttribute注解、泛型依赖注入、Spring IOC 容器和SpringMVC IOC 容器同时管理、&#10;            BaseDao、BaseService、分页功能、log4j2、文件上传、使用@ControllerAdvice注解统一默认的异常处理方式">
+      <created>1581598892419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581598892419</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="平台名称：platformV1.3&#10;框架构成：Spring4 + SpringMVC4 + Hibernate4&#10;数 据 库：MySQL5&#10;已有功能: 声明式事务、拦截器、使用@ModelAttribute注解、泛型依赖注入、Spring IOC 容器和SpringMVC IOC 容器同时管理、&#10;            BaseDao、BaseService、分页功能、log4j2、文件上传、使用@ControllerAdvice注解统一默认的异常处理方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="平台名称：platformV1.3&#10;框架构成：Spring4 + SpringMVC4 + Hibernate4&#10;数 据 库：MySQL5&#10;已有功能: 声明式事务、拦截器、使用@ModelAttribute注解、泛型依赖注入、Spring IOC 容器和SpringMVC IOC 容器同时管理、&#10;            BaseDao、BaseService、分页功能、log4j2、文件上传、使用@ControllerAdvice注解统一默认的异常处理方式" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1581598890307">
+      <screen x="0" y="0" width="1366" height="707" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.707@0.0.1366.707" timestamp="1581598890307" />
+    <state x="463" y="95" key="FileChooserDialogImpl" timestamp="1581688443572">
+      <screen x="0" y="0" width="1366" height="707" />
+    </state>
+    <state x="463" y="95" key="FileChooserDialogImpl/0.0.1366.707@0.0.1366.707" timestamp="1581688443572" />
+    <state x="158" y="0" key="SettingsEditor" timestamp="1581688392492">
+      <screen x="0" y="0" width="1366" height="707" />
+    </state>
+    <state x="158" y="0" key="SettingsEditor/0.0.1366.707@0.0.1366.707" timestamp="1581688392492" />
+    <state x="275" y="75" key="Vcs.Push.Dialog.v2" timestamp="1581688473130">
+      <screen x="0" y="0" width="1366" height="707" />
+    </state>
+    <state x="275" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.707@0.0.1366.707" timestamp="1581688473130" />
+    <state x="363" y="178" key="com.intellij.ide.util.TipDialog" timestamp="1581597644013">
+      <screen x="0" y="0" width="1366" height="707" />
+    </state>
+    <state x="363" y="178" key="com.intellij.ide.util.TipDialog/0.0.1366.707@0.0.1366.707" timestamp="1581597644013" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>platformV1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

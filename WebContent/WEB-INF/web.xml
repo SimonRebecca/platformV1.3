@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <!-- 加载顺序： context-param → listener → filter → servlet -->
+    <context-param>
+        <description>Spring 配置文件的名称和位置</description>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:config/spring.xml</param-value>
+    </context-param>
+    <listener>
+        <description>启动 Spring IOC 容器的 ServletContextListener</description>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <context-param>
+        <description>日志配置文件</description>
+        <param-name>log4jConfiguration</param-name>
+        <param-value>classpath:config/log4j2.xml</param-value>
+    </context-param>
+    <listener>
+        <description>启动 Log4j 的 ServletContextListener</description>
+        <listener-class>org.apache.logging.log4j.web.Log4jServletContextListener</listener-class>
+    </listener>
+    <servlet>
+        <description>dispatcherServlet(前端控制器、分发器)</description>
+        <servlet-name>springmvc</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:config/springmvc.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>springmvc</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
