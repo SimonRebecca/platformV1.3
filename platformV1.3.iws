@@ -236,7 +236,7 @@
       <workItem from="1514964598496" duration="25000" />
       <workItem from="1530252439624" duration="1363000" />
       <workItem from="1530858345266" duration="102000" />
-      <workItem from="1581597617300" duration="4007000" />
+      <workItem from="1581597617300" duration="5399000" />
     </task>
     <task id="LOCAL-00001" summary="平台名称：platformV1.3&#10;框架构成：Spring4 + SpringMVC4 + Hibernate4&#10;数 据 库：MySQL5&#10;已有功能: 声明式事务、拦截器、使用@ModelAttribute注解、泛型依赖注入、Spring IOC 容器和SpringMVC IOC 容器同时管理、&#10;            BaseDao、BaseService、分页功能、log4j2、文件上传、使用@ControllerAdvice注解统一默认的异常处理方式">
       <created>1581598539676</created>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581598892419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="平台名称：platformV1.3&#10;框架构成：Spring4 + SpringMVC4 + Hibernate4&#10;数 据 库：MySQL5&#10;已有功能: 声明式事务、拦截器、使用@ModelAttribute注解、泛型依赖注入、Spring IOC 容器和SpringMVC IOC 容器同时管理、&#10;            BaseDao、BaseService、分页功能、log4j2、文件上传、使用@ControllerAdvice注解统一默认的异常处理方式">
+      <created>1581688562689</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581688562689</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,10 +278,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="平台名称：platformV1.3&#10;框架构成：Spring4 + SpringMVC4 + Hibernate4&#10;数 据 库：MySQL5&#10;已有功能: 声明式事务、拦截器、使用@ModelAttribute注解、泛型依赖注入、Spring IOC 容器和SpringMVC IOC 容器同时管理、&#10;            BaseDao、BaseService、分页功能、log4j2、文件上传、使用@ControllerAdvice注解统一默认的异常处理方式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1581598890307">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1581688560083">
       <screen x="0" y="0" width="1366" height="707" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.707@0.0.1366.707" timestamp="1581598890307" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.707@0.0.1366.707" timestamp="1581688560083" />
     <state x="463" y="95" key="FileChooserDialogImpl" timestamp="1581688443572">
       <screen x="0" y="0" width="1366" height="707" />
     </state>
@@ -283,10 +290,10 @@
       <screen x="0" y="0" width="1366" height="707" />
     </state>
     <state x="158" y="0" key="SettingsEditor/0.0.1366.707@0.0.1366.707" timestamp="1581688392492" />
-    <state x="275" y="75" key="Vcs.Push.Dialog.v2" timestamp="1581688473130">
+    <state x="277" y="132" key="Vcs.Push.Dialog.v2" timestamp="1581690143744">
       <screen x="0" y="0" width="1366" height="707" />
     </state>
-    <state x="275" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.707@0.0.1366.707" timestamp="1581688473130" />
+    <state x="277" y="132" key="Vcs.Push.Dialog.v2/0.0.1366.707@0.0.1366.707" timestamp="1581690143744" />
     <state x="363" y="178" key="com.intellij.ide.util.TipDialog" timestamp="1581597644013">
       <screen x="0" y="0" width="1366" height="707" />
     </state>
